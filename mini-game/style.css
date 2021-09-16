@@ -1,0 +1,19 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.content {
+  text-align: center;
+}
+
+.winner {
+  color: red;
+}
+
+.loser {
+  color: green;
+}
