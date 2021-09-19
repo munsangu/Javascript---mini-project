@@ -1,0 +1,42 @@
+body {
+  text-align: center;
+}
+
+#add-btn {
+  padding: 5px 10px;
+  border: 0;
+  background: #f80; color: #fff;
+  border-radius: 5px;
+}
+
+.container1 {
+  border: 5px solid #2244ff;
+  border-radius: 20px;
+  width: 30%;
+  margin: 10px auto;
+  background-color: antiquewhite;
+  color: #a52a2a;
+}
+
+.container2 {
+  border: 2px solid #000;
+  border-radius: 20px;
+  width: 70%;
+  margin: 10px auto;
+  background-color: #00bfff;
+  color: #5f92a0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  border-bottom: 1px solid #999;
+  padding: 5px 0;
+}
+
+.active {
+  background: #abc;
+}
