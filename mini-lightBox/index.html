@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LIGHTBOX</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src = "main.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Light BOX</h1>
+      <img class="thumb" src="./images/1.jpg" alt="1" onclick="lightbox_open(1)">
+      <img class="thumb" src="./images/2.jpg" alt="2" onclick="lightbox_open(2)">
+      <img class="thumb" src="./images/3.jpg" alt="3" onclick="lightbox_open(3)">
+    </header>
+
+    <div id="block"></div>
+    
+    <div id="lightbox">
+      <h1>일본 사진</h1>
+      <p>일본의 경치를 느낄 수 있는 사진들...<br><br></p>
+      <figure>
+        <img src="./images/1.jpg" alt="1" class="active">
+        <img src="./images/2.jpg" alt="2">
+        <img src="./images/3.jpg" alt="3">
+      </figure>
+      <div class="indicator">
+        <button onclick="change_img(this.innerHTML)">1</button>
+        <button onclick="change_img(this.innerHTML)">2</button>
+        <button onclick="change_img(this.innerHTML)">3</button>
+      </div>
+      <div class="btn-close" onclick="lightbox_close()">x</div>
+    </div>
+  </body>
+</html>
